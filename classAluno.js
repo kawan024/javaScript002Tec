@@ -26,6 +26,6 @@ class Aluno {
   }
 }
 
-let aluno1 = new Aluno("ana", 5050, [8, 0, 7, 3, 9, 0]);
+let aluno1 = new Aluno(`ana`, 5050, [8, 0, 7, 3, 9, 0]);
 console.log(aluno1.calculaMedia());
 console.log(aluno1.obterStatus());
